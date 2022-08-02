@@ -1,0 +1,9 @@
+spring:
+    jpa:
+      hibernate.ddl-auto: update
+    datasource:
+      url: jdbc:mysql://192.168.161.62:3306/lms
+      username: gaurs
+      password: password
+      show-sql: true
+      driver-class-name: com.mysql.cj.jdbc.Driver
